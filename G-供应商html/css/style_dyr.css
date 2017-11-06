@@ -1,0 +1,73 @@
+.partner-from{
+	padding: 50px 0 40px 80px;
+}
+.partner-from ul li{
+	margin-bottom: 10px;
+}
+.partner-from ul li.h30{
+	height: 30px;
+}
+.partner-from ul li.h40{
+	height: 40px;
+}
+.partner-from ul li.h80{
+	height: 80px;
+}
+.partner-from ul li .txt{
+	width: 348px; border: 1px solid #ddd;
+	padding-left: 10px; font-size: 14px; color: #333;
+}
+.partner-from ul li select.txt{
+	width: 83px; margin-right: 10px;
+	background: url(../imgs/dyr02.png) no-repeat right 10px center;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+.partner-from ul li.h40 .txt{
+	height: 38px;
+}
+.partner-from ul li.h30 .txt{
+	height: 30px;
+}
+.partner-from ul li.h80 .txt{
+	height: 78px;
+}
+.partner-from ul li label,
+.partner-from ul li .txt{
+	float: left;
+}
+.partner-from ul li label{
+	width:142px; text-align: right;
+	font-size: 14px; color: #000;
+}
+.partner-from ul li.h30 label{
+	line-height: 30px;
+}
+.partner-from ul li.h40 label{
+	line-height: 40px;
+}
+.partner-from ul li.h80 label{
+	line-height: 80px;
+}
+.partner-from ul li label.lab02{
+	width: auto; margin-left: 20px;
+}
+.partner-from ul li .file{
+	width: 118px; height: 78px; border: 1px solid #ddd;
+	background:url(../imgs/dff14.png) no-repeat center;
+	float: left; position: relative;
+}
+.partner-from ul li .file input{
+	position: absolute; top: 0; right: 0; left: 0; bottom: 0;
+	opacity: 0; cursor: pointer;
+}
+.partner-from .submit{
+	width: 350px; height: 40px; margin-top: 30px;
+	background-color: #55c2dd; text-align: center;
+	font-size: 16px; color: #fff; border: 0; border-radius: 5px;
+	margin-left: 142px; cursor: pointer;
+}
+.partner-from .submit:hover{
+	background-color: #22d3ff;
+}
