@@ -19,7 +19,7 @@
 }
 .partner-from ul li select.txt{
 	width: 83px; margin-right: 10px;
-	background: url(../imgs/dyr02.png) no-repeat right 10px center;
+	background: url(../imgs/dff15.png) no-repeat right 10px center;
 	appearance:none;
 	-moz-appearance:none;
 	-webkit-appearance:none;
@@ -62,12 +62,434 @@
 	position: absolute; top: 0; right: 0; left: 0; bottom: 0;
 	opacity: 0; cursor: pointer;
 }
-.partner-from .submit{
+.partner-from .ui-btn{
 	width: 350px; height: 40px; margin-top: 30px;
-	background-color: #55c2dd; text-align: center;
-	font-size: 16px; color: #fff; border: 0; border-radius: 5px;
+	font-size: 16px; color: #fff; border: 0;
 	margin-left: 142px; cursor: pointer;
 }
-.partner-from .submit:hover{
-	background-color: #22d3ff;
+.id-mesg{
+	padding: 35px 0 105px 145px;
+}
+.id-mesg ul{
+	padding-bottom: 30px; margin-bottom: 30px;
+	border-bottom: 1px solid #ddd;
+	width: 350px;
+}
+.id-mesg ul.ul2{
+	border-bottom: 0; padding-bottom: 15px;
+}
+.id-mesg ul li label,
+.id-mesg ul li h4,
+.id-mesg ul li a{
+	display: inline-block; height: 28px; line-height: 28px;
+	font-size: 14px;
+}
+.id-mesg ul li a{
+	color: #55c2dd; margin-left: 20px;
+}
+.id-mesg ul li{
+	margin-bottom: 10px;
+}
+.id-mesg ul li .txt{
+	width: 190px; height: 26px; border: 1px solid #ddd;
+	padding-left: 10px; font-size: 14px; color: #999;
+}
+.id-mesg ul.ul1 li label{
+	width: 58px;  text-align: right;
+}
+.id-mesg ul.ul2 li label{
+	width: 70px; text-align: right;
+}
+.id-mesg .ui-btn{
+	margin-left: 95px;
+}
+.wrapper{
+	width: 1200px; margin: 0 auto;
+}
+.about-us{
+	background-color: #fff; margin: 20px 0 40px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.about-us .txt{
+	padding: 30px 110px 50px; 
+}
+.about-us .txt p{
+	font-size: 14px; line-height: 24px; text-indent: 2em;
+}
+/**/
+.bc-f5{
+	background-color: #f5f5f5;
+}
+.adv-head{
+	height: 520px;
+	background: url(../imgs/dyr02.jpg) no-repeat center;
+}
+.adv-head .wrapper{
+	width: 930px; color: #fff;
+}
+.adv-head .txt{
+	padding-top: 90px;
+}
+.adv-head h2{
+	font-size: 36px; color: #fff; position: relative;
+	width: 470px; margin: 0 auto; padding-top: ;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	padding-bottom: 10px; position: relative;
+}
+.adv-head h2 img{
+	position: absolute; top: 20px; left: -30px;	
+}
+.adv-head p{
+	font-size: 18px; line-height: 35px; margin-top: 75px;
+	position: relative; text-indent: 2em;
+} 
+.adv-head p img{
+	position: absolute;
+}
+.adv-head p .img01{
+	top: -20px; left: -15px;
+}
+.adv-head p .img02{
+	bottom: -15px; right: 0; 
+}
+.ui-adv-hd{
+	padding-top: 10px; 
+	width: 458px; margin: 0 auto;
+	border-bottom: 1px solid #7a7a7a;
+	position: relative;
+}
+.ui-adv-hd h4{
+	font-size: 26px; color: #333; text-align: center;
+	line-height: 105px;
+}
+.ui-adv-hd .img{
+	width: 100px; height: 16px; position: absolute; bottom: 0; 
+	left: 50%; margin-left: -50px; margin-bottom: -8px;
+	background-color: #F5F5F5; display: block; text-align: center;
+}
+.ui-adv-hd img{
+	width: 24px; height: 15px; margin: 0 auto;
+}
+.adv-partner{
+	padding-bottom: 85px;
+}
+.adv-partner .body{
+	margin-top: 65px;
+}
+.adv-partner .body ul{
+	height: auto; overflow: hidden; width: 150%;
+}
+.adv-partner .body ul li{
+	width: 314px; float: left; display: inline;
+}
+.adv-partner .body ul li.n1{
+	background: url(../imgs/dyr06.png) no-repeat left top;
+}
+.adv-partner .body ul li.n2{
+	background: url(../imgs/dyr07.png) no-repeat left top;
+}
+.adv-partner .body ul li.n3{
+	background: url(../imgs/dyr08.png) no-repeat left top;
+}
+.adv-partner .body ul li.n4{
+	background: url(../imgs/dyr09.png) no-repeat left top;
+}
+.adv-partner .body ul li.n5{
+	background: url(../imgs/dyr10.png) no-repeat left top;
+}
+.adv-partner .body ul li.ml-neg{
+	margin-left: -70px;
+}
+.adv-partner .body ul li .img{
+	width: 157px; height: 157px; position: relative;
+}
+.adv-partner .body ul li .txt{
+	position: absolute; border-radius: 100%;
+	background-color: rgba(0,0,0,0.78);
+	top: 0; left: 0; right: 0; bottom: 0;
+	text-align: center; padding-top: 30px;
+	display: none; transition: all 0.5s;
+}
+.adv-partner .body ul li:hover .txt{
+	display: block;
+}
+.adv-partner .body ul li .txt p{
+	font-size: 15px; line-height: 33px; color: #fff;
+}
+.adv-partner .body ul li h4{
+	text-align: center; margin-top: 40px;
+	width: 157px; line-height: 23px; font-size: 20px;
+}
+.adv-manage{
+	background: url(../imgs/dyr03.jpg) no-repeat center;
+	height: 530px; position: relative;
+}
+.adv-manage .ui-adv-hd h4{
+	color: #fff;
+}
+.adv-manage .ui-adv-hd{
+	border-bottom: 1px solid #84868a;
+}
+.adv-manage .ui-adv-hd .img{
+	background-color: rgba(0,0,0,0.9)
+}
+.adv-manage .mask{
+	position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+}
+.adv-manage .body{
+	margin-top: 65px; position: relative; z-index: 5;
+}
+.adv-manage .body ul{
+	height: auto; overflow: hidden;
+	padding: 0 60px;
+}
+.adv-manage .body ul li{
+	width: 200px; float: left; margin: 0 80px;
+}
+.adv-manage .body ul li .img{
+	width: 140px; margin: 0 auto;
+	background: url(../imgs/dyr14.png) no-repeat center;
+	height: 161px; position: relative;
+}
+.adv-manage .body ul li:hover .img{
+	background: url(../imgs/dyr15.png) no-repeat center;
+}
+.adv-manage .body ul li .img img{
+	width: 70px; height: 70px; position: absolute;
+	top: 50%; margin-top: -35px; left: 50%; margin-left: -35px;
+}
+.adv-manage .body ul li h4{
+	line-height: 110px; font-size: 22px; color: #fff;
+	text-align: center;
+}
+.adv-news{
+	padding-bottom: 40px;
+}
+.adv-news .body{
+	margin-top: 50px;
+}
+.adv-news .body ul{
+	width: 105%; height: auto; overflow: hidden;
+}
+.adv-news .body ul li{
+	width: 578px; float: left; margin-right: 40px;
+	border: 1px solid #e6e6e6;
+}
+.adv-news .body ul li .hd{
+	height: 38px; background-color: #55c2dd;
+	padding: 0 10px; line-height: 38px; 
+}
+.adv-news .body ul li .hd h4,
+.adv-news .body ul li .hd a{
+	color: #fff; font-size: 16px;
+}
+.adv-news .body ul li .bd{
+	background-color: #fff;
+	padding: 15px;
+}
+.adv-news .body ul li .bd dd{
+	height: 30px;
+}
+.adv-news .body ul li .bd dd a,
+.adv-news .body ul li .bd dd span{
+	font-size: 14px; color: #000;
+}
+.adv-news .body ul li .bd dd a{
+	float: left;
+}
+.adv-news .body ul li .bd dd span{
+	float: right;
+}
+.company-from{
+	background: url(../imgs/dyr04.jpg) no-repeat;
+	height: 280px;
+}
+.company-from .wrapper{
+	width: 1085px;
+}
+.company-from ul{
+	padding-top: 55px; height: auto; overflow: hidden;
+	background: url(../imgs/dyr16.png) no-repeat bottom left;
+	padding-bottom: 35px; margin-bottom: 25px;
+	width: 110%;
+}
+.company-from ul li{
+	float: left; margin-right: 40px;
+}
+.company-from ul li h4{
+	line-height: 55px; font-size: 20px; color: #fff;
+}
+.company-from ul li h4 i{
+	width: 3px; height: 18px; display: inline-block;
+	background-color: #55c2dd; margin-right: 6px;
+	position: relative; top: 2px; 
+}
+.company-from ul li .select{
+	width: 132px; height: 35px;
+	background:url(../imgs/dyr18.png) no-repeat right 8px center #fff; border-radius: 3px;
+	border: 0; font-size: 16px; color: #333;
+	appearance:none; padding-left: 8px;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+}
+.company-from ul li .select01{
+	width: 132px;
+}
+.company-from ul li .select02{
+	width: 265px;
+}
+.company-from .btn{
+	text-align: center;
+}
+.company-from .submit{
+	width: 120px; border: 1px solid #fff;
+	height: 36px; background: none;  cursor: pointer;
+	font-size: 16px; color: #fff; 
+}
+.company-from .submit:hover{
+	background-color: #fff; color: #333;
+}
+.company-lists li{
+	height: 168px; padding: 15px;
+	background-color: #fff; margin-top: 30px;
+}
+.company-lists li .img{
+	width: 264px; float: left;  overflow: hidden;
+}
+.company-lists li .img img{
+	width: 264px; height: 168px; display: block;
+	transition: all 0.5s;
+}
+.company-lists li:hover .img img{
+	transform: scale(1.2);
+}
+.ui-name{
+	width: 280px; float: left; margin-left: 30px;
+	padding-top: 30px;
+}
+.ui-name h3{
+	font-size: 18px; color: #333; margin-bottom: 10px;
+}
+.ui-name h4{
+	font-size: 16px; line-height: 32px;
+}
+.ui-name dl,
+.ui-name dd{
+	display: inline-block;
+}
+.company-lists li .txt{
+	width: 468px; float: right;
+	padding-top: 25px;
+}
+.company-lists li .txt p{
+	font-size: 14px; color: #333; line-height: 24px;
+	text-indent: 2em;
+}
+.company-lists .more{
+	text-align: center;
+}
+.company-lists .more a{
+	line-height: 80px; 
+	font-size: 16px; color: #333;
+}
+.ui-current{
+	height: 28px;
+}
+.ui-current a,
+.ui-current span{
+	display: inline-block; font-size: 12px; color: #333;
+	line-height: 28px;
+}
+.project-plan{
+	height: auto; overflow: hidden; padding-bottom: 50px;
+}
+.project-plan .right{
+	width: 268px; border: 1px solid #e6e6e6;
+	height: 268px; padding: 20px; margin-top: 20px;
+}
+.project-plan .right .img img{
+	width: 268px; height: 168px; display: block;
+}
+.project-plan .ui-name{
+	float: none; padding-top: 10px;
+}
+.bc-fff{
+	background-color: #fff;
+}
+.project-plan .txt{
+	width: 710px; float: left; padding: 0 90px; color: #333;
+}
+.project-plan .txt h4{
+	line-height: 68px; font-size: 18px;  text-align: center;
+}
+.project-plan .txt p{
+	font-size: 15px; line-height: 34px;
+}
+.odl-info{
+	background-color: #fff; margin: 20px auto 35px;
+}
+.odl-info img{
+	display: block;
+}
+.odl-info .txt{
+	padding: 35px 135px 60px;
+}
+.odl-info .txt p{
+	font-size: 14px; line-height: 24px; text-indent: 2em;
+	line-height: 28px;
+}
+.supplier-wp .head{
+	text-align: center;
+}
+.supplier-wp .head h3{
+	line-height: 60px; font-size: 20px; text-align: center;
+}
+.supplier-wp .head ul li{
+	display: inline;
+}
+.supplier-wp .head ul li a{
+	display: inline-block; line-height: 30px;
+	width: 168px; margin: 0 19px; font-size: 16px;
+	height: 30px; background-color: #fff; color: #55c2dd;
+	border-radius: 5px; position: relative;
+}
+.supplier-wp .head ul li a em{
+	background: url(../imgs/dyr19.png) no-repeat;
+	width: 21px; height: 10px; 
+	position: absolute; left: 50%; margin-left: -10.5px;
+	bottom: 0; margin-bottom: -25px;
+	display: none;
+}
+.supplier-wp .head ul li.on a,
+.supplier-wp .head ul li a:hover{
+	background-color: #55c2dd; color: #fff;
+}
+.supplier-wp .head ul li.on a em{
+	display: block;
+}
+.supplier-wp .body{
+	background-color: #fff; padding: 50px; margin-top: 25px;
+	box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+.supplier-wp .body h4{
+	line-height: 60px; font-size: 18px; color: #333;
+}
+.supplier-wp .body h4 i{
+	width: 4px; height: 17px; background-color: #55c2dd;
+	display: inline-block; position: relative; top: 3px;
+	margin-right: 5px;
+}
+.supplier-wp .body p{
+	font-size: 14px; line-height: 28px; text-indent: 2em;
+}
+.supplier-wp .body a{
+	display: block; background-color: #55c2dd;
+	width: 154px; height: 34px; text-align: center;
+	line-height: 34px; color: #fff; font-size: 16px;
+	border-radius: 5px; margin: 45px auto;
+}
+.supplier-wp .body a:hover{
+	background-color: #2ad1fa;
 }
